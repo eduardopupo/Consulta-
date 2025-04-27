@@ -1,70 +1,48 @@
-Consulta+ - Sistema de Consulta Médica
-Consulta+ é uma aplicação web simples que permite aos usuários consultar informações detalhadas sobre consultas médicas. O sistema é composto por um front-end moderno em React e uma API robusta construída com .NET Core e Entity Framework para gerenciamento de dados. A aplicação integra com um banco de dados SQLite, proporcionando uma solução leve e eficiente para armazenar as informações das consultas médicas, pacientes e médicos.
+<<<<<<< HEAD
+# Getting Started with Create React App
 
-Este projeto foi desenvolvido com foco em aprendizado e implementação de conceitos modernos de desenvolvimento web, utilizando tanto a arquitetura de front-end como back-end para construir uma aplicação funcional e interativa.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Funcionalidades
-Consulta de Consultas Médicas: O usuário pode inserir o ID de uma consulta para buscar detalhes sobre a consulta médica.
+## Available Scripts
 
-Exibição de Dados Detalhados: A aplicação retorna informações completas sobre a consulta, incluindo dados do paciente (nome e documento) e do médico (nome e especialidade).
+In the project directory, you can run:
 
-Interface Simples e Intuitiva: A interface foi projetada com foco em usabilidade e experiência do usuário, utilizando uma abordagem minimalista com boa usabilidade.
+### `npm start`
 
-Sistema Responsivo: A aplicação é responsiva, adaptando-se bem a diferentes tamanhos de tela para garantir uma boa experiência tanto em dispositivos móveis quanto em desktop.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Tecnologias Usadas
-Frontend (Interface do Usuário)
-React: A principal tecnologia utilizada para o desenvolvimento da interface. O React é uma biblioteca popular para construir interfaces de usuário dinâmicas e interativas. Neste projeto, foi utilizado junto ao TypeScript, proporcionando uma tipagem estática e segurança no código.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Axios: Utilizado para realizar as requisições HTTP para a API. O Axios facilita a comunicação entre o front-end e o back-end, permitindo que dados sejam recuperados e exibidos de forma assíncrona.
+### `npm test`
 
-CSS: A estilização da aplicação é feita com CSS puro. O design é simples e limpo, com ênfase em uma boa experiência visual e interatividade.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Vite: Vite foi utilizado como bundler e servidor de desenvolvimento. Ele permite uma experiência de desenvolvimento muito mais rápida devido ao seu tempo de build e hot-reload rápidos.
+### `npm run build`
 
-Backend (API e Banco de Dados)
-.NET Core: A API foi construída utilizando .NET Core, um framework de código aberto da Microsoft para desenvolvimento de aplicações web. O ASP.NET Core é utilizado para criar a API RESTful que manipula as requisições feitas pela aplicação front-end.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Entity Framework (EF): O Entity Framework Core é utilizado para comunicação com o banco de dados SQLite. Ele permite o uso de ORM (Object-Relational Mapping) para acessar e manipular os dados no banco de dados de forma simples e eficiente.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-SQLite: O banco de dados utilizado é o SQLite, um banco de dados relacional leve e embutido. Ele é ideal para aplicações de pequeno porte ou para protótipos devido à sua simplicidade e baixo custo de manutenção. Neste projeto, o SQLite armazena dados sobre consultas médicas, pacientes e médicos.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-CORS: A configuração de CORS (Cross-Origin Resource Sharing) foi ajustada para permitir que o front-end, que é servido em uma porta diferente da API, possa realizar requisições para o back-end sem enfrentar problemas de segurança relacionados ao compartilhamento de recursos entre origens diferentes.
+### `npm run eject`
 
-Ferramentas de Desenvolvimento e Ambiente
-Visual Studio: Foi utilizado para o desenvolvimento do backend, com integração do Entity Framework e SQLite.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Node.js e npm: Para o front-end, utilizamos o Node.js junto com npm (Node Package Manager) para gerenciar as dependências e os scripts de desenvolvimento.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Postman: Para testar as APIs durante o desenvolvimento, foi utilizado o Postman, uma ferramenta útil para fazer requisições HTTP e visualizar as respostas.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Swagger: O Swagger foi configurado para a documentação da API, permitindo que desenvolvedores e usuários possam visualizar as rotas e testar a API diretamente na interface do Swagger UI.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Como Rodar o Projeto
-Backend (API)
-Clone o repositório e navegue até a pasta da API.
+## Learn More
 
-Certifique-se de ter o .NET SDK instalado na sua máquina.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Execute o comando dotnet build para compilar o projeto.
-
-Execute o comando dotnet run para iniciar a API no http://localhost:5028.
-
-A API estará disponível e pronta para responder a requisições de consulta com base no ID.
-
-Frontend (Aplicação React)
-Clone o repositório e navegue até a pasta consulta-front.
-
-Instale as dependências com o comando:
-
-bash
-Copiar
-Editar
-npm install
-Execute o comando:
-
-bash
-Copiar
-Editar
-npm run dev
-Abra o navegador e acesse http://localhost:5173 para visualizar a aplicação em funcionamento.
+To learn React, check out the [React documentation](https://reactjs.org/).
+=======
