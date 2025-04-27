@@ -1,0 +1,6 @@
+@ConsultaMaisAPI_HostAddress = http://localhost:5028
+
+GET {{ConsultaMaisAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
