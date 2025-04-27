@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "WQJ9rMh+u7ddAxtHdVqzp+PQtoIcFL+AildGOJr7g/c=",
+  "Source": "ConsultaMaisAPI",
+  "BasePath": "_content/ConsultaMaisAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
